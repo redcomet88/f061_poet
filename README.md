@@ -52,14 +52,14 @@ def hybrid_recommend(user_id, top_n=10):
 
 2.喜欢功能：这个和结合推荐一起用的，可以点击喜欢诗词点赞/取消点赞
 用户可对喜爱的诗词进行 点赞/取消点赞，操作数据实时反馈至推荐引擎；
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/36b73af174b8469cb7ab655e5b248d3e.png)
+![在这里插入图片描述](详情和点赞界面.png)
 
 
 3.智能写诗：基于硅基流动的模型接口实现对话写诗
 对接 硅基流动模型接口，实现自然语言对话式写诗。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/84d5b8ddf748414fa1185d1db33ac604.png)
+![在这里插入图片描述](智能问答.png)
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/dd57e25996794320ba6cede2302ffd77.png)
+![在这里插入图片描述](写诗.png)
 
 ```python
 def chat_with_siliconflow(messages, model="Qwen/Qwen3-32B"):
@@ -110,26 +110,26 @@ def chat_with_siliconflow(messages, model="Qwen/Qwen3-32B"):
 4.可视化功能：echarts图形进行分析诗人朝代、主题分布
 朝代分布：柱状图展示各朝代诗词数量占比，直观呈现“唐诗宋词”的巅峰地位；
 主题分析：词云图/饼图统计山水、边塞、思乡等主题的分布情况；
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/ec5f2efa1a0f487aa5085805d21defee.png)
+![在这里插入图片描述](诗人分析.png)
 
 5.个人信息：个人信息修改、头像上传修改、预设头像
 支持 个人信息修改+头像自定义+预设头像库个性化配置。
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/f9dd86aa33f04a07982a43510f338cfa.png)
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/acc3180173f64b1e962a2af68d116cb3.png)
+![在这里插入图片描述](个人设置.png)
+![在这里插入图片描述](选择预设头像.png)
 
 
 
 6.登录注册：登录、注册
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/1ff37400c60a4a4393f6ad3193590870.png)
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/35a1a023a4e54b209756402d74c5a0a1.png)
+![在这里插入图片描述](登录.png)
+![在这里插入图片描述](注册.png)
 
 
 7.查询诗词+诗人展示：支持诗词浏览、查询
 支持标题查询+全文检索
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/52835996dad8440d8099591282a66ccc.png)
+![在这里插入图片描述](诗词介绍和搜索.png)
 
 诗人展示
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/3a3012ef2f4c450bbee6c3549e385948.png)
+![在这里插入图片描述](诗人展示.png)
 
 8.用户管理：支持用户管理、增删改查
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/53eaa662ba5f4ac99908534bc04ebb62.png)
+![在这里插入图片描述](诗人管理.png)
